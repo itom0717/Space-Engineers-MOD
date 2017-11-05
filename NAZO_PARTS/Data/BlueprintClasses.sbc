@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClasses>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>NAZO_MineralProcessing</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>NAZO_StoneCrushing</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_rock.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_gravel.dds</OutputConstraintIcon>
+    </Class>
+
+  </BlueprintClasses>
+
+  <BlueprintClassEntries>
+
+    <!--Stone Crusher-->
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/NAZO_StoneCrusher_Large_1x2x1" />
+    <Entry Class="NAZO_StoneCrushing" BlueprintSubtypeId="StoneOreToIngot" />
+
+
+    <!--Mineral Processor-->
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Assembler/NAZO_MineralProcessor_Large_1x1x2" />
+    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Cobalt" />
+    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Gold" />
+    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Iron" />
+    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Magnesium" />
+    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Nickel" />
+    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Platinum" />
+    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Silicon" />
+    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Silver" />
+    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Uranium" />
+
+    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Ice" />
+		<!--
+		<Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Gravel" />
+		-->
+
+  </BlueprintClassEntries>
+
+</Definitions>

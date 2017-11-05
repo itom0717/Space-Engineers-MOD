@@ -1,0 +1,40 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CategoryClasses>
+
+
+
+
+		<!--GUI Category (Type): Production-->
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+		<Id>
+			<TypeId>GuiBlockCategoryDefinition</TypeId>
+			<SubtypeId/>
+		</Id>
+		<DisplayName>DisplayName_Category_Production</DisplayName>
+		<Name>Production</Name>
+			<ItemIds>
+				<string>NAZO_MineralProcessor_Large_1x1x2</string>
+				<string>NAZO_StoneCrusher_Large_1x2x1</string>
+			</ItemIds>
+		</Category>
+
+
+
+
+		<!--GUI Category: Large Blocks-->
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId/>
+			</Id>
+			<DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+			<Name>LargeBlocks</Name>
+			<ItemIds>
+				<string>NAZO_MineralProcessor_Large_1x1x2</string>
+				<string>NAZO_StoneCrusher_Large_1x2x1</string>
+			</ItemIds>
+		</Category>
+
+	</CategoryClasses>
+</Definitions>
