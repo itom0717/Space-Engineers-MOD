@@ -33,7 +33,7 @@
       </BuildProgressModels>
       <BlockPairName>NAZO_StoneCrusherBlock</BlockPairName>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>35</BuildTimeSeconds>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>99999</InventoryMaxVolume>
       <InventorySize>

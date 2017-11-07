@@ -8,7 +8,7 @@
         <TypeId>Assembler</TypeId>
         <SubtypeId>NAZO_MineralProcessor_Large_1x1x2</SubtypeId>
       </Id>
-      <DisplayName>[NAZO] Material Creationl Processor</DisplayName>
+      <DisplayName>[NAZO] Material Generator</DisplayName>
 	    <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -33,7 +33,7 @@
       </BuildProgressModels>
       <BlockPairName>NAZO_MineralProcessorBlock</BlockPairName>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
 	    <InventoryMaxVolume>99999</InventoryMaxVolume>
 	    <InventorySize>

@@ -11,7 +11,7 @@
 	    <DisplayName>Cobalt</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\cobalt_ingot.dds</Icon>
       <Prerequisites>
-		   <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+		   <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
 	    <Results>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Cobalt" />
@@ -28,7 +28,7 @@
 	    <DisplayName>Gold</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gold_ingot.dds</Icon>
       <Prerequisites>
-		    <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+		    <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
 	    <Results>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Gold" />
@@ -45,7 +45,7 @@
 	  <DisplayName>Iron</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
        <Prerequisites>
-		<Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+         <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
        </Prerequisites>
 	   <Results>
          <Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
@@ -62,7 +62,7 @@
 	    <DisplayName>Magnesium</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\magnesium_ingot.dds</Icon>
       <Prerequisites>
-		   <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+		   <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
 	    <Results>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Magnesium" />
@@ -79,7 +79,7 @@
 	    <DisplayName>Nickel</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\nickel_ingot.dds</Icon>
       <Prerequisites>
-		   <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+		   <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
 	    <Results>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
@@ -96,7 +96,7 @@
 	    <DisplayName>Platinum</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\silver_ingot.dds</Icon>
       <Prerequisites>
-		    <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+		    <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
 	    <Results>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Platinum" />
@@ -113,7 +113,7 @@
 	    <DisplayName>Silicon</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\silicon_ingot.dds</Icon>
       <Prerequisites>
-		    <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+		    <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
 	    <Results>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Silicon" />
@@ -130,7 +130,7 @@
 	    <DisplayName>Silver</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\silver_ingot.dds</Icon>
       <Prerequisites>
-		    <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+		    <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
 	    <Results>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Silver" />
@@ -147,14 +147,13 @@
 	    <DisplayName>Uranium</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\uranium_ingot.dds</Icon>
       <Prerequisites>
-		    <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+		    <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
 	    <Results>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Uranium" />
       </Results>
 	    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
-
 
 
     <Blueprint>
@@ -165,7 +164,7 @@
       <DisplayName>Ice</DisplayName>
       <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
       <Results>
         <Item Amount="10" TypeId="Ore" SubtypeId="Ice" />
@@ -174,6 +173,8 @@
     </Blueprint>
 
 
+
+<!--
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -182,14 +183,14 @@
       <DisplayName>Gravel</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
       <Results>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Stone" />
       </Results>
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
-
+-->
 
   </Blueprints>
 </Definitions>
