@@ -31,24 +31,24 @@
 
     <!--Stone Crusher-->
     <Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/NAZO_StoneCrusher_Large_1x2x1" />
-    <Entry Class="NAZO_StoneCrushing" BlueprintSubtypeId="StoneOreToIngot" />
+    <Entry Class="NAZO_StoneCrushing" BlueprintSubtypeId="NAZO_Stone_to_Gravel" />
 
 
     <!--Mineral Processor-->
     <Entry Class="LargeBlocks" BlueprintSubtypeId="Assembler/NAZO_MineralProcessor_Large_1x1x2" />
-    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Cobalt" />
-    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Gold" />
-    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Iron" />
-    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Magnesium" />
-    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Nickel" />
-    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Platinum" />
-    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Silicon" />
-    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Silver" />
-    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Uranium" />
+    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Cobalt" />
+    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Gold" />
+    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Iron" />
+    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Magnesium" />
+    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Nickel" />
+    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Platinum" />
+    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Silicon" />
+    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Silver" />
+    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Uranium" />
 
-    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Ice" />
+    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Ice" />
 		<!--
-		<Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="Gravel_to_Gravel" />
+		<Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Gravel" />
 		-->
 
   </BlueprintClassEntries>

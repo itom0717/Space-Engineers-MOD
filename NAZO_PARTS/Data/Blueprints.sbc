@@ -2,19 +2,39 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Blueprints>
 
+
+    <!--Stone to Gravel-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_Stone_to_Gravel</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Gravel</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Stone" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Stone" />
+      </Results>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+
     <!--Gravel to Cobalt-->
 	  <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Gravel_to_Cobalt</SubtypeId>
+        <SubtypeId>NAZO_Gravel_to_Cobalt</SubtypeId>
       </Id>
-	    <DisplayName>Cobalt</DisplayName>
+	    <DisplayName>DisplayName_Item_CobaltIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\cobalt_ingot.dds</Icon>
       <Prerequisites>
 		   <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
 	    <Results>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Cobalt" />
       </Results>
 	    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -23,15 +43,15 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Gravel_to_Gold</SubtypeId>
+        <SubtypeId>NAZO_Gravel_to_Gold</SubtypeId>
       </Id>
-	    <DisplayName>Gold</DisplayName>
+	    <DisplayName>DisplayName_Item_GoldIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gold_ingot.dds</Icon>
       <Prerequisites>
 		    <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
 	    <Results>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Gold" />
       </Results>
 	    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -40,15 +60,15 @@
 	  <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Gravel_to_Iron</SubtypeId>
+        <SubtypeId>NAZO_Gravel_to_Iron</SubtypeId>
       </Id>
-	  <DisplayName>Iron</DisplayName>
+	  <DisplayName>DisplayName_Item_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
        <Prerequisites>
          <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
        </Prerequisites>
 	   <Results>
-         <Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
+         <Item Amount="100" TypeId="Ingot" SubtypeId="Iron" />
        </Results>
 	    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -57,15 +77,15 @@
 	  <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Gravel_to_Magnesium</SubtypeId>
+        <SubtypeId>NAZO_Gravel_to_Magnesium</SubtypeId>
       </Id>
-	    <DisplayName>Magnesium</DisplayName>
+	    <DisplayName>DisplayName_Item_MagnesiumPowder</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\magnesium_ingot.dds</Icon>
       <Prerequisites>
 		   <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
 	    <Results>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Magnesium" />
       </Results>
 	    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -74,15 +94,15 @@
 	  <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Gravel_to_Nickel</SubtypeId>
+        <SubtypeId>NAZO_Gravel_to_Nickel</SubtypeId>
       </Id>
-	    <DisplayName>Nickel</DisplayName>
+	    <DisplayName>DisplayName_Item_NickelIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\nickel_ingot.dds</Icon>
       <Prerequisites>
 		   <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
 	    <Results>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Nickel" />
       </Results>
 	    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -91,15 +111,15 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Gravel_to_Platinum</SubtypeId>
+        <SubtypeId>NAZO_Gravel_to_Platinum</SubtypeId>
       </Id>
-	    <DisplayName>Platinum</DisplayName>
+	    <DisplayName>DisplayName_Item_PlatinumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\silver_ingot.dds</Icon>
       <Prerequisites>
 		    <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
 	    <Results>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Platinum" />
       </Results>
 	    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -108,15 +128,15 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Gravel_to_Silicon</SubtypeId>
+        <SubtypeId>NAZO_Gravel_to_Silicon</SubtypeId>
       </Id>
-	    <DisplayName>Silicon</DisplayName>
+	    <DisplayName>DisplayName_Item_SiliconWafer</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\silicon_ingot.dds</Icon>
       <Prerequisites>
 		    <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
 	    <Results>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Silicon" />
       </Results>
 	    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -125,15 +145,15 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Gravel_to_Silver</SubtypeId>
+        <SubtypeId>NAZO_Gravel_to_Silver</SubtypeId>
       </Id>
-	    <DisplayName>Silver</DisplayName>
+	    <DisplayName>DisplayName_Item_SilverIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\silver_ingot.dds</Icon>
       <Prerequisites>
 		    <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
 	    <Results>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Silver" />
       </Results>
 	    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -142,15 +162,15 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Gravel_to_Uranium</SubtypeId>
+        <SubtypeId>NAZO_Gravel_to_Uranium</SubtypeId>
       </Id>
-	    <DisplayName>Uranium</DisplayName>
+	    <DisplayName>DisplayName_Item_UraniumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\uranium_ingot.dds</Icon>
       <Prerequisites>
 		    <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
 	    <Results>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Uranium" />
       </Results>
 	    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -159,15 +179,15 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Gravel_to_Ice</SubtypeId>
+        <SubtypeId>NAZO_Gravel_to_Ice</SubtypeId>
       </Id>
-      <DisplayName>Ice</DisplayName>
+      <DisplayName>DisplayName_Item_Ice</DisplayName>
       <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
       <Prerequisites>
         <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
       <Results>
-        <Item Amount="10" TypeId="Ore" SubtypeId="Ice" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="Ice" />
       </Results>
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -178,7 +198,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Gravel_to_Gravel</SubtypeId>
+        <SubtypeId>NAZO_Gravel_to_Gravel</SubtypeId>
       </Id>
       <DisplayName>Gravel</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
@@ -186,7 +206,7 @@
         <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
       <Results>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Stone" />
       </Results>
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
