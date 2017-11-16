@@ -6,9 +6,9 @@
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
         <TypeId>Assembler</TypeId>
-        <SubtypeId>NAZO_MineralProcessor_Large_1x1x2</SubtypeId>
+        <SubtypeId>NAZO_ComponentProcessor_Large_1x1x2</SubtypeId>
       </Id>
-      <DisplayName>[NAZO] Material Generator</DisplayName>
+      <DisplayName>[NAZO] Component Generator</DisplayName>
 	    <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -17,10 +17,10 @@
       <Model>Models\Cubes\Large\Assembler.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="5" />
-        <Component Subtype="Construction" Count="2" />
-        <Component Subtype="Motor" Count="2" />
-        <Component Subtype="Display" Count="2" />
-        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="1" />
         <Component Subtype="SteelPlate" Count="5" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
@@ -31,7 +31,7 @@
         <Model BuildPercentUpperBound="0.80" File="Models\Cubes\Large\AssemblerConstruction_4.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AssemblerConstruction_5.mwm" />
       </BuildProgressModels>
-      <BlockPairName>NAZO_MineralProcessorBlock</BlockPairName>
+      <BlockPairName>NAZO_ComponentProcessorBlock</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -44,7 +44,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.85</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>NAZO_MineralProcessing</Class>
+        <Class>NAZO_ComponentProcessing</Class>
       </BlueprintClasses>
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>

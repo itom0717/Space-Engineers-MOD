@@ -5,17 +5,6 @@
     <Class>
       <Id>
         <TypeId>BlueprintClassDefinition</TypeId>
-        <SubtypeId>NAZO_MineralProcessing</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
-      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
-      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
-    </Class>
-
-    <Class>
-      <Id>
-        <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>NAZO_StoneCrushing</SubtypeId>
       </Id>
       <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
@@ -24,6 +13,31 @@
       <InputConstraintIcon>Textures\GUI\Icons\filter_rock.dds</InputConstraintIcon>
       <OutputConstraintIcon>Textures\GUI\Icons\filter_gravel.dds</OutputConstraintIcon>
     </Class>
+
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>NAZO_MaterialProcessing</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>NAZO_ComponentProcessing</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+
 
   </BlueprintClasses>
 
@@ -34,22 +48,49 @@
     <Entry Class="NAZO_StoneCrushing" BlueprintSubtypeId="NAZO_Stone_to_Gravel" />
 
 
-    <!--Mineral Processor-->
-    <Entry Class="LargeBlocks" BlueprintSubtypeId="Assembler/NAZO_MineralProcessor_Large_1x1x2" />
-    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Cobalt" />
-    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Gold" />
-    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Iron" />
-    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Magnesium" />
-    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Nickel" />
-    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Platinum" />
-    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Silicon" />
-    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Silver" />
-    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Uranium" />
 
-    <Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Ice" />
+    <!--Material Processor-->
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Assembler/NAZO_MineralProcessor_Large_1x1x2" />
+    <Entry Class="NAZO_MaterialProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Cobalt" />
+    <Entry Class="NAZO_MaterialProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Gold" />
+    <Entry Class="NAZO_MaterialProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Iron" />
+    <Entry Class="NAZO_MaterialProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Magnesium" />
+    <Entry Class="NAZO_MaterialProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Nickel" />
+    <Entry Class="NAZO_MaterialProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Platinum" />
+    <Entry Class="NAZO_MaterialProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Silicon" />
+    <Entry Class="NAZO_MaterialProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Silver" />
+    <Entry Class="NAZO_MaterialProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Uranium" />
+    <Entry Class="NAZO_MaterialProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Ice" />
 		<!--
-		<Entry Class="NAZO_MineralProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Gravel" />
+		<Entry Class="NAZO_MaterialProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Gravel" />
 		-->
+
+    <!--Component Processor-->
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Assembler/NAZO_ComponentProcessor_Large_1x1x2" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_ConstructionComponent" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_GirderComponent" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_MetalGrid" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_InteriorPlate" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_SteelPlate" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_SmallTube" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_LargeTube" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_MotorComponent" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_Display" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_BulletproofGlass" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_ComputerComponent" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_ReactorComponent" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_ThrustComponent" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_GravityGeneratorComponent" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_MedicalComponent" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_RadioCommunicationComponent" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_DetectorComponent" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_Canvas" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_SolarCell" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_PowerCell" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_Superconductor" />
+    <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_Superconductor" />
+
+
 
   </BlueprintClassEntries>
 

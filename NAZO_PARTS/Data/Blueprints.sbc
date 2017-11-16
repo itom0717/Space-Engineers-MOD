@@ -12,10 +12,10 @@
       <DisplayName>DisplayName_Item_Gravel</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Ore" SubtypeId="Stone" />
+        <Item Amount=".1" TypeId="Ore" SubtypeId="Stone" />
       </Prerequisites>
       <Results>
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
       </Results>
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -211,6 +211,309 @@
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
 -->
+
+
+
+
+
+
+<!--Component-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_ConstructionComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_ConstructionComponent</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Construction" />
+      <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_GirderComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Girder</DisplayName>
+      <Icon>Textures\GUI\Icons\component\girder_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Girder" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_MetalGrid</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_MetalGrid</DisplayName>
+      <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="MetalGrid" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_InteriorPlate</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_InteriorPlate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="InteriorPlate" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_SteelPlate</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="SteelPlate" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_SmallTube</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_SmallSteelTube</DisplayName>
+      <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="SmallTube" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_LargeTube</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_LargeSteelTube</DisplayName>
+      <Icon>Textures\GUI\Icons\component\large_tube_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="LargeTube" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_MotorComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Motor</DisplayName>
+      <Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Motor" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_Display</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Display</DisplayName>
+      <Icon>Textures\GUI\Icons\component\display_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Display" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_BulletproofGlass</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_BulletproofGlass</DisplayName>
+      <Icon>Textures\GUI\Icons\component\bulletproof_glass_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="BulletproofGlass" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_ComputerComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Computer</DisplayName>
+      <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Computer" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_ReactorComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_ReactorComponents</DisplayName>
+      <Icon>Textures\GUI\Icons\component\reactor_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Reactor" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_ThrustComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_ThrustComponents</DisplayName>
+      <Icon>Textures\GUI\Icons\component\thrust_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Thrust" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_GravityGeneratorComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_GravityGeneratorComponents</DisplayName>
+      <Icon>Textures\GUI\Icons\component\gravity_generator_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+       </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="GravityGenerator" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_MedicalComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_MedicalComponents</DisplayName>
+      <Icon>Textures\GUI\Icons\component\medical_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Medical" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_RadioCommunicationComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_RadioCommunicationComponents</DisplayName>
+      <Icon>Textures\GUI\Icons\component\radio_communication_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="RadioCommunication" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_DetectorComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_DetectorComponents</DisplayName>
+      <Icon>Textures\GUI\Icons\component\detector_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Detector" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_Canvas</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_CanvasCartridge</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Cartridge_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Canvas" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+    </Blueprint> 
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_SolarCell</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_SolarCell</DisplayName>
+      <Icon>Textures\GUI\Icons\component\SolarCellComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="SolarCell" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_PowerCell</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_PowerCell</DisplayName>
+      <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="PowerCell" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NAZO_Superconductor</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Superconductor</DisplayName>
+      <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Superconductor" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint> 
+
+
+
 
   </Blueprints>
 </Definitions>

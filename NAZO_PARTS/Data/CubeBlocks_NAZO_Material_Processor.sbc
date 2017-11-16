@@ -2,58 +2,54 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
 
-    <!-- Large Grid Stone Crusher -->
-    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+    <!-- Large Grid Mineral Processor -->
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
-        <TypeId>Refinery</TypeId>
-        <SubtypeId>NAZO_StoneCrusher_Large_1x2x1</SubtypeId>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>NAZO_MineralProcessor_Large_1x1x2</SubtypeId>
       </Id>
-      <DisplayName>[NAZO] Stone Crusher</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+      <DisplayName>[NAZO] Material Generator</DisplayName>
+	    <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="2" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\BlastFurnace.mwm</Model>
+      <Model>Models\Cubes\Large\Assembler.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="5" />
         <Component Subtype="Construction" Count="1" />
-        <Component Subtype="LargeTube" Count="1" />
         <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="1" />
         <Component Subtype="SteelPlate" Count="5" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BlastFurnaceConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BlastFurnaceConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BlastFurnaceConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.20" File="Models\Cubes\Large\AssemblerConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.40" File="Models\Cubes\Large\AssemblerConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.60" File="Models\Cubes\Large\AssemblerConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.80" File="Models\Cubes\Large\AssemblerConstruction_4.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AssemblerConstruction_5.mwm" />
       </BuildProgressModels>
-      <BlockPairName>NAZO_StoneCrusherBlock</BlockPairName>
+      <BlockPairName>NAZO_MineralProcessorBlock</BlockPairName>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>99999</InventoryMaxVolume>
-      <InventorySize>
+	    <InventoryMaxVolume>99999</InventoryMaxVolume>
+	    <InventorySize>
         <X>2</X>
         <Y>2</Y>
         <Z>2</Z>
       </InventorySize>
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.65</OperationalPowerConsumption>
+      <OperationalPowerConsumption>0.85</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>NAZO_StoneCrushing</Class>
+        <Class>NAZO_MaterialProcessing</Class>
       </BlueprintClasses>
-      <RefineSpeed>4</RefineSpeed>
-      <MaterialEfficiency>0.9</MaterialEfficiency>
-      <OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <PrimarySound>BlockRafinery</PrimarySound>
       <ActionSound>BlockRafineryProcess</ActionSound>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <Public>true</Public>
