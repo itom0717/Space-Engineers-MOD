@@ -48,7 +48,6 @@
     <Entry Class="NAZO_StoneCrushing" BlueprintSubtypeId="NAZO_Stone_to_Gravel" />
 
 
-
     <!--Material Processor-->
     <Entry Class="LargeBlocks" BlueprintSubtypeId="Assembler/NAZO_MineralProcessor_Large_1x1x2" />
     <Entry Class="NAZO_MaterialProcessing" BlueprintSubtypeId="NAZO_Gravel_to_Cobalt" />
@@ -91,6 +90,7 @@
     <Entry Class="NAZO_ComponentProcessing" BlueprintSubtypeId="NAZO_Superconductor" />
 
 
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="SolarPanel/NAZO_LargeBlockSolarPanel_Large_1x2x4" />
 
   </BlueprintClassEntries>
 
