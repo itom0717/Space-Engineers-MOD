@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
 
@@ -8,7 +8,7 @@
         <TypeId>SolarPanel</TypeId>
         <SubtypeId>NAZO_LargeBlockSolarPanel_Large_1x2x4</SubtypeId>
       </Id>
-      <DisplayName>NAZO Solar Panel</DisplayName>
+      <DisplayName>[NAZO] Solar Panel</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
