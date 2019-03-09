@@ -18,7 +18,7 @@
       <Components>
         <Component Subtype="SteelPlate" Count="20" />
       </Components>
-      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
@@ -40,8 +40,8 @@
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <RequiredPowerInput>12</RequiredPowerInput>
       <AdaptibleInput>true</AdaptibleInput>
-      <MaxStoredPower>100</MaxStoredPower>
-      <InitialStoredPowerRatio>100</InitialStoredPowerRatio>
+      <MaxStoredPower>1000000</MaxStoredPower>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
 
       <InventorySize>
         <X>1</X>
