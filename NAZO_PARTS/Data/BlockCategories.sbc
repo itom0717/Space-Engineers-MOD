@@ -19,6 +19,7 @@
 				<string>Assembler/NAZO_ComponentProcessor_Large_1x1x2</string>
 				<string>WindTurbine/NAZO_LargeBlockWindTurbine</string>
 				<string>BatteryBlock/NAZO_LargeBlockBatteryBlock</string>
+				<string>BatteryBlock/NAZO_LargeBlockSolarPanel</string>
 			</ItemIds>
 		</Category>
 
@@ -34,6 +35,7 @@
 			<Name>SmallBlocks</Name>
 			<ItemIds>
 				<string>BatteryBlock/NAZO_SmallBlockSmallBatteryBlock</string>
+				<string>BatteryBlock/NAZO_SmallBlockSolarPanel</string>
 			</ItemIds>
 		</Category>
 
@@ -69,6 +71,8 @@
 				<string>WindTurbine/NAZO_LargeBlockWindTurbine</string>
 				<string>BatteryBlock/NAZO_LargeBlockBatteryBlock</string>
 				<string>BatteryBlock/NAZO_SmallBlockSmallBatteryBlock</string>
+				<string>BatteryBlock/NAZO_LargeBlockSolarPanel</string>
+				<string>BatteryBlock/NAZO_SmallBlockSolarPanel</string>
 			</ItemIds>
 		</Category>
 
