@@ -5,41 +5,43 @@
     <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
       <Id>
         <TypeId>SolarPanel</TypeId>
-        <SubtypeId>NAZO_SmallBlockSolarPanel</SubtypeId>
+        <SubtypeId>NAZO_LargeBlockSolarPanel</SubtypeId>
       </Id>
-      <DisplayName>[NAZO] Small Solar Panel</DisplayName>
+      <DisplayName>[NAZO] Solar Panel</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
       <Description>Description_SolarPanel</Description>
-      <CubeSize>Small</CubeSize>
+      <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="10" y="5" z="1" />
+      <Size x="4" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\SolarPanel.mwm</Model>
-      <Center x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\SolarPanel.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="8" />
+        <Component Subtype="SteelPlate" Count="10" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <Center x="0" y="0" z="0" />
       <MountPoints>
-        <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="5" Default="true" />
-        <MountPoint Side="Top" StartX="9.8" StartY="0.9" EndX="10" EndY="1" />
+        <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="2" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="2" Default="true" />
+        <MountPoint Side="Top" StartX="3.8" StartY="0.9" EndX="4" EndY="1" />
         <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.2" EndY="1" />
-        <MountPoint Side="Bottom" StartX="9.8" StartY="0" EndX="10" EndY="0.1" />
+        <MountPoint Side="Bottom" StartX="3.8" StartY="0" EndX="4" EndY="0.1" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="5" />
-        <MountPoint Side="Front" StartX="9.8" StartY="0" EndX="10" EndY="5" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="2" />
+        <MountPoint Side="Front" StartX="3.8" StartY="0" EndX="4" EndY="2" />
       </MountPoints>
+
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SolarPanelConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SolarPanelConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelConstruction1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelConstruction2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelConstruction3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>NAZO_SmallBlockSolarPanel</BlockPairName>
+      <BlockPairName>NAZO_SolarPanel</BlockPairName>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
 
       <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
-      <MaxPowerOutput>8</MaxPowerOutput>
+      <MaxPowerOutput>10</MaxPowerOutput>
 
       <PanelOrientation>
         <X>0</X>
@@ -48,9 +50,7 @@
       </PanelOrientation>
       <TwoSidedPanel>true</TwoSidedPanel>
       <PanelOffset>1.0</PanelOffset>
-      <MirroringX>Z</MirroringX>
-      <MirroringZ>X</MirroringZ>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -59,6 +59,7 @@
       <PCU>55</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
 
 	
   </CubeBlocks>

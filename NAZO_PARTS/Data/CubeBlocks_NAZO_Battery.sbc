@@ -24,7 +24,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>NAZO_BatteryBlock</BlockPairName>
+      <BlockPairName>NAZO_Battery</BlockPairName>
       <EdgeType>Light</EdgeType>
       <!--<BlockVariants>
         <BlockVariant>

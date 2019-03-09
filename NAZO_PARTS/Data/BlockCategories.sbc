@@ -19,7 +19,7 @@
 				<string>Assembler/NAZO_ComponentProcessor_Large_1x1x2</string>
 				<string>WindTurbine/NAZO_LargeBlockWindTurbine</string>
 				<string>BatteryBlock/NAZO_LargeBlockBatteryBlock</string>
-				<string>BatteryBlock/NAZO_LargeBlockSolarPanel</string>
+				<string>SolarPanel/NAZO_LargeBlockSolarPanel</string>
 			</ItemIds>
 		</Category>
 
@@ -35,7 +35,7 @@
 			<Name>SmallBlocks</Name>
 			<ItemIds>
 				<string>BatteryBlock/NAZO_SmallBlockSmallBatteryBlock</string>
-				<string>BatteryBlock/NAZO_SmallBlockSolarPanel</string>
+				<string>SolarPanel/NAZO_SmallBlockSolarPanel</string>
 			</ItemIds>
 		</Category>
 
@@ -71,14 +71,32 @@
 				<string>WindTurbine/NAZO_LargeBlockWindTurbine</string>
 				<string>BatteryBlock/NAZO_LargeBlockBatteryBlock</string>
 				<string>BatteryBlock/NAZO_SmallBlockSmallBatteryBlock</string>
-				<string>BatteryBlock/NAZO_LargeBlockSolarPanel</string>
-				<string>BatteryBlock/NAZO_SmallBlockSolarPanel</string>
+				<string>SolarPanel/NAZO_LargeBlockSolarPanel</string>
+				<string>SolarPanel/NAZO_SmallBlockSolarPanel</string>
 			</ItemIds>
 		</Category>
 
 
 
-
+		<!--GUI Category (Type): NAZO-->
+			<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId/>
+			</Id>
+			<DisplayName>NAZO</DisplayName>
+			<Name>NAZO</Name>
+			<ItemIds>
+				<string>Refinery/NAZO_StoneCrusher_Large_1x2x1</string>
+				<string>Assembler/NAZO_MineralProcessor_Large_1x1x2</string>
+				<string>Assembler/NAZO_ComponentProcessor_Large_1x1x2</string>
+				<string>WindTurbine/NAZO_LargeBlockWindTurbine</string>
+				<string>BatteryBlock/NAZO_LargeBlockBatteryBlock</string>
+				<string>SolarPanel/NAZO_LargeBlockSolarPanel</string>
+				<string>BatteryBlock/NAZO_SmallBlockSmallBatteryBlock</string>
+				<string>SolarPanel/NAZO_SmallBlockSolarPanel</string>
+			</ItemIds>
+		</Category>
 
 	</CategoryClasses>
 </Definitions>

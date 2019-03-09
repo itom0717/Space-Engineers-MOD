@@ -7,7 +7,7 @@
         <TypeId>BatteryBlock</TypeId>
         <SubtypeId>NAZO_SmallBlockSmallBatteryBlock</SubtypeId>
       </Id>
-      <DisplayName>[NAZO] Small Battery</DisplayName>
+      <DisplayName>[NAZO] Battery</DisplayName>
       <Icon>Textures/GUI/Icons/Cubes/Battery1x1.dds</Icon>
       <Description>Description_Battery</Description>
       <GuiVisible>true</GuiVisible>
@@ -24,7 +24,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmall1x1_Construction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmall1x1_Construction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>NAZO_Battery1x1Block</BlockPairName>
+      <BlockPairName>NAZO_Battery</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>8</BuildTimeSeconds>
 
