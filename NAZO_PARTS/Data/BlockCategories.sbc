@@ -17,7 +17,8 @@
 				<string>Refinery/NAZO_StoneCrusher_Large_1x2x1</string>
 				<string>Assembler/NAZO_MineralProcessor_Large_1x1x2</string>
 				<string>Assembler/NAZO_ComponentProcessor_Large_1x1x2</string>
-				<string>SolarPanel/NAZO_LargeBlockSolarPanel_Large_1x2x4</string>
+				<string>WindTurbine/NAZO_LargeBlockWindTurbine</string>
+				<string>BatteryBlock/NAZO_LargeBlockBatteryBlock</string>
 			</ItemIds>
 		</Category>
 
@@ -32,6 +33,7 @@
 			<DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
 			<Name>SmallBlocks</Name>
 			<ItemIds>
+				<string>BatteryBlock/NAZO_SmallBlockSmallBatteryBlock</string>
 			</ItemIds>
 		</Category>
 
@@ -56,32 +58,20 @@
 
 
 		<!--GUI Category (Type): Power-->
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
-      <Id>
-        <TypeId>GuiBlockCategoryDefinition</TypeId>
-        <SubtypeId/>
-      </Id>
-      <DisplayName>DisplayName_Category_Power</DisplayName>
-      <Name>Power</Name>
-      <ItemIds>
-				<string>SolarPanel/NAZO_LargeBlockSolarPanel_Large_1x2x4</string>
-      </ItemIds>
-    </Category>
+			<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId/>
+			</Id>
+			<DisplayName>DisplayName_Category_Power</DisplayName>
+			<Name>Power</Name>
+			<ItemIds>
+				<string>WindTurbine/NAZO_LargeBlockWindTurbine</string>
+				<string>BatteryBlock/NAZO_LargeBlockBatteryBlock</string>
+				<string>BatteryBlock/NAZO_SmallBlockSmallBatteryBlock</string>
+			</ItemIds>
+		</Category>
 
-
-
-
-		<!--GUI Category (Type): Conveyors-->
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
-      <Id>
-        <TypeId>GuiBlockCategoryDefinition</TypeId>
-        <SubtypeId/>
-      </Id>
-      <DisplayName>DisplayName_Category_ConveyorBlocks</DisplayName>
-      <Name>Conveyors</Name>
-      <ItemIds>
-      </ItemIds>
-    </Category>
 
 
 
