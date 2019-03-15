@@ -35,11 +35,14 @@
         <Item Amount="10" TypeId="Ore" SubtypeId="Stone" />
       </Prerequisites>
       <Results>
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Stone" />
-        <Item Amount="540" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="46"  TypeId="Ingot" SubtypeId="Nickel" />
-        <Item Amount="70"  TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="1"   TypeId="Ore"   SubtypeId="Ice" />
+        <Item Amount="200"  TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="540"  TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="46"   TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="70"   TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="1"    TypeId="Ore"   SubtypeId="Ice" />
+        <Item Amount="1"    TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="1"    TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount="1"    TypeId="Ingot" SubtypeId="Silver" />
       </Results>
       <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
     </Blueprint>

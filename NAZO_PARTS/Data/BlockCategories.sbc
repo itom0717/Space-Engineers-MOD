@@ -39,6 +39,7 @@
 				<string>BatteryBlock/NAZO_SmallBlockSmallBatteryBlock</string>
 				<string>SolarPanel/NAZO_SmallBlockSolarPanel</string>
 				<string>OxygenGenerator/NAZO_OxygenGeneratorSmall</string>
+				<string>SurvivalKit/NAZO_SurvivalKit</string>
 			</ItemIds>
 		</Category>
 
@@ -60,6 +61,7 @@
 				<string>Assembler/NAZO_ComponentProcessor_Large_1x1x2</string>
 				<string>OxygenGenerator/NAZO_OxygenGeneratorLarge</string>
 				<string>OxygenGenerator/NAZO_OxygenGeneratorSmall</string>
+				<string>SurvivalKit/NAZO_SurvivalKit</string>
 			</ItemIds>
 		</Category>
 
@@ -104,6 +106,7 @@
 				<string>SolarPanel/NAZO_SmallBlockSolarPanel</string>
 				<string>OxygenGenerator/NAZO_OxygenGeneratorLarge</string>
 				<string>OxygenGenerator/NAZO_OxygenGeneratorSmall</string>
+				<string>SurvivalKit/NAZO_SurvivalKit</string>
 			</ItemIds>
 		</Category>
 

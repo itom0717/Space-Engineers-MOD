@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+
+    <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
+      <Id>
+        <TypeId>SurvivalKit</TypeId>
+        <SubtypeId>NAZO_SurvivalKit</SubtypeId>
+      </Id>
+      <DisplayName>[NAZO] Survival Kit</DisplayName>
+      <Description>Mysterious parts.</Description>
+      <Icon>Textures\GUI\Icons\Cubes\SurvivalKitSmall.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="4" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\SurvivalKit.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="Medical" Count="1" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="3"/>
+        <MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="1"/>
+        <MountPoint Side="Back" StartX="2" StartY="0" EndX="4" EndY="3"/>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="4" EndY="3" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="4" EndY="3" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="4" EndY="3" />
+      </MountPoints>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\SurvivalKitConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SurvivalKitConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>NAZO_SurvivalKit</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <BlueprintClasses>
+        <Class>NAZO_StoneCrushing</Class>
+        <Class>NAZO_ComponentProcessing</Class>
+        <Class>NAZO_MaterialProcessing</Class>
+      </BlueprintClasses>
+      <AssemblySpeed>0.3</AssemblySpeed>
+      <ScreenAreas>
+        <ScreenArea Name="CockpitScreen_01" DisplayName="Top panel" />
+        <ScreenArea Name="CockpitScreen_02" DisplayName="Bottom panel" />
+      </ScreenAreas>
+
+      <StandbyPowerConsumption>0.015</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.2</OperationalPowerConsumption>
+      <InventoryMaxVolume>99999</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+
+      <!-- 
+      <OtherInventoryMaxVolume>2</OtherInventoryMaxVolume>
+      <RefinerySound>BlockRafineryProcess</RefinerySound> -->
+
+      <!-- <HealingAllowed>true</HealingAllowed>
+      <RefuelingAllowed>true</RefuelingAllowed>
+      <HealingSound>BlockMedicalProgress</HealingSound>
+      <SoundVolumeModifierRefinery>0.6</SoundVolumeModifierRefinery>
+      <SoundVolumeModifierAssembler>0.6</SoundVolumeModifierAssembler> -->
+
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <ProgressSound>BlockMedicalProgress</ProgressSound>
+
+      <!-- <RefineMaterialAmountModifier>0.15</RefineMaterialAmountModifier>
+      <RefineDuration>6</RefineDuration>
+      <MaterialEfficiency>0.35</MaterialEfficiency>
+      <OreAmountPerPullRequest>500</OreAmountPerPullRequest>
+      <AssemblerPriority>0</AssemblerPriority> -->
+      <PCU>140</PCU>
+    </Definition>
+
+
+
+  </CubeBlocks>
+</Definitions>
