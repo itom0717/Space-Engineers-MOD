@@ -9,7 +9,7 @@
       </Id>
       <DisplayName>[NAZO] Battery</DisplayName>
       <Icon>Textures/GUI/Icons/Cubes/Battery1x1.dds</Icon>
-      <Description>Description_Battery</Description>
+      <Description>Mysterious parts.</Description>
       <GuiVisible>true</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>

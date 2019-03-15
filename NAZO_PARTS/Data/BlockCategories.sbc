@@ -15,11 +15,13 @@
 			<Name>LargeBlocks</Name>
 			<ItemIds>
 				<string>Refinery/NAZO_StoneCrusher_Large_1x2x1</string>
+				<string>Refinery/NAZO_StoneCrusher_Large_1x2x1Assembler</string>
 				<string>Assembler/NAZO_MineralProcessor_Large_1x1x2</string>
 				<string>Assembler/NAZO_ComponentProcessor_Large_1x1x2</string>
 				<string>WindTurbine/NAZO_LargeBlockWindTurbine</string>
 				<string>BatteryBlock/NAZO_LargeBlockBatteryBlock</string>
 				<string>SolarPanel/NAZO_LargeBlockSolarPanel</string>
+				<string>OxygenGenerator/NAZO_OxygenGeneratorLarge</string>
 			</ItemIds>
 		</Category>
 
@@ -36,6 +38,7 @@
 			<ItemIds>
 				<string>BatteryBlock/NAZO_SmallBlockSmallBatteryBlock</string>
 				<string>SolarPanel/NAZO_SmallBlockSolarPanel</string>
+				<string>OxygenGenerator/NAZO_OxygenGeneratorSmall</string>
 			</ItemIds>
 		</Category>
 
@@ -52,8 +55,11 @@
 		<Name>Production</Name>
 			<ItemIds>
 				<string>Refinery/NAZO_StoneCrusher_Large_1x2x1</string>
+				<string>Refinery/NAZO_StoneCrusher_Large_1x2x1Assembler</string>
 				<string>Assembler/NAZO_MineralProcessor_Large_1x1x2</string>
 				<string>Assembler/NAZO_ComponentProcessor_Large_1x1x2</string>
+				<string>OxygenGenerator/NAZO_OxygenGeneratorLarge</string>
+				<string>OxygenGenerator/NAZO_OxygenGeneratorSmall</string>
 			</ItemIds>
 		</Category>
 
@@ -88,6 +94,7 @@
 			<Name>NAZO</Name>
 			<ItemIds>
 				<string>Refinery/NAZO_StoneCrusher_Large_1x2x1</string>
+				<string>Refinery/NAZO_StoneCrusher_Large_1x2x1Assembler</string>
 				<string>Assembler/NAZO_MineralProcessor_Large_1x1x2</string>
 				<string>Assembler/NAZO_ComponentProcessor_Large_1x1x2</string>
 				<string>WindTurbine/NAZO_LargeBlockWindTurbine</string>
@@ -95,6 +102,8 @@
 				<string>SolarPanel/NAZO_LargeBlockSolarPanel</string>
 				<string>BatteryBlock/NAZO_SmallBlockSmallBatteryBlock</string>
 				<string>SolarPanel/NAZO_SmallBlockSolarPanel</string>
+				<string>OxygenGenerator/NAZO_OxygenGeneratorLarge</string>
+				<string>OxygenGenerator/NAZO_OxygenGeneratorSmall</string>
 			</ItemIds>
 		</Category>
 

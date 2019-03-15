@@ -8,7 +8,7 @@
         <SubtypeId>NAZO_LargeBlockWindTurbine</SubtypeId>
       </Id>
       <DisplayName>[NAZO] Wind Turbine</DisplayName>
-      <Description>Description_WindTurbine</Description>
+      <Description>Mysterious parts.</Description>
       <Icon>Textures\GUI\Icons\Cubes\WindTurbine.dds</Icon>
       <CubeSize>Large</CubeSize>
       <PlaceDecals>false</PlaceDecals>

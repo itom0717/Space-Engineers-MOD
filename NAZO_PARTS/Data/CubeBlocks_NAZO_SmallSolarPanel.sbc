@@ -9,7 +9,7 @@
       </Id>
       <DisplayName>[NAZO] Solar Panel</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
-      <Description>Description_SolarPanel</Description>
+      <Description>Mysterious parts.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="10" y="5" z="1" />

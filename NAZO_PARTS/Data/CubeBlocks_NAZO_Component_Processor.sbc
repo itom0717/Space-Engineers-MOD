@@ -10,7 +10,7 @@
       </Id>
       <DisplayName>[NAZO] Component Generator</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
-      <Description>Description_Assembler</Description>
+      <Description>Mysterious parts.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
